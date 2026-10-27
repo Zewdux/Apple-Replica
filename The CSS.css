@@ -1,0 +1,620 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+img {
+	max-width: 100%;
+}
+body {
+
+	font-family: 'Montserrat', sans-serif;
+	font-size: 20px;
+}
+
+/* Header---------------------------------------------------------------------------------*/
+
+.header-wrapper {
+	background: black; 
+	color: #fff;
+	font-weight: 200;
+	font-size: 0.75em;	
+	/* position: fixed; */
+}
+.header-wrapper ul {
+	display: flex;
+  -webkit-box-pack: justify;
+  justify-content: space-between;
+  list-style: none;
+  /* position: fixed; */
+}
+.internal-wrapper {
+	width: 980px;
+	padding: 0 10px;
+	margin: 0 auto;
+	/* position: fixed; */
+}
+.header-wrapper .header-links-wrapper ul  li a {
+	text-decoration: none;
+	color: #fff;
+}
+.header-wrapper .header-links-wrapper ul  li {
+  display: inline-block;
+  padding: 14px 0 8px;
+  height: 25px;
+  opacity: 0.8;
+}
+.header-wrapper .header-links-wrapper ul  li:hover {
+	opacity: 3;
+}	
+.logo-link, .search-link, .cart-link {
+	width: 18px;
+}
+.logo-link {
+	padding: 12px 0 10px;
+}
+.header-wrapper .header-links-wrapper ul  li.search-link {
+	padding: 14px 0 8px;
+}
+.header-wrapper .header-links-wrapper ul  li.cart-link {
+	padding: 12px 0 10px;
+}
+
+/* Header---------------------------------------------------------------------------------*/
+
+footer {
+	background-color: #f8f8fb;
+}
+
+.innerfooter {
+	width: 980px;
+    padding: 20px 10px 10px;
+    margin: 0 auto;
+	display: block;
+    unicode-bidi: isolate;
+	color: #86868b;
+	border-bottom: 1px solid #d2d2d7;
+	font-size: .65em;
+}
+
+.innerfooter a {
+	text-decoration: none;
+	color: black;
+}
+
+.innerfooter a:hover {
+	text-decoration: underline;
+}
+
+.innerlinks {
+	width: 980px;
+	padding: 0 10px 10px;
+    margin: 0 auto;
+	display: flex;
+    unicode-bidi: isolate;
+	font-size: .65em;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+    padding-top: 20px;
+	
+}
+
+.innerlinks .footer21 ul li a:hover {
+	text-decoration: underline;
+}
+
+
+.innerlinks ul li a {
+	text-decoration: none;
+	color: #626264;
+}
+.innerlinks ul li {
+	list-style: none;
+	padding: 0px 0px 5px;
+
+}
+
+.innerlinks p {
+	padding-top: 15px;
+	padding-bottom: 5px;
+}
+
+.underfooter {
+	width: 980px;
+	font-size: .65em;
+	border-bottom: 1px solid #d2d2d7;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+	padding: 0 10px 10px;
+    margin: 0 auto;
+	color: #626264;
+}
+
+.underfooter a  {
+	text-decoration: none;
+	color: black;
+}
+.underfooter a:hover {
+	text-decoration: underline;
+}
+
+.lastfooter {
+	display: flex;
+	margin: 0 auto;
+	width: 980px;
+	font-size: .65em;
+	padding-bottom: 50px;
+	color: #626264;
+	-webkit-box-pack: justify;
+    justify-content: space-between;
+    padding-top: 20px;
+}
+
+.lastfooter .bumm ul li a {
+	text-decoration: none;
+	color: black;
+}
+
+.lastfooter .bumm ul li a:hover {
+	text-decoration: underline;
+}
+
+.lastfooter .bumm ul {
+	list-style: none;
+	display: flex;
+}
+
+/* Section 1---------------------------------------------------------------------------------*/
+
+.sec1 {
+	width: auto;
+	background: #fafafa;
+	text-align: center;
+	padding:  0;
+}
+
+
+.sec1internal {
+	width: 980px;
+    padding: 0 10px;
+    margin: 0 auto;
+	-webkit-box-pack: justify;
+    justify-content: space-between;
+    padding-top: 20px;
+}
+
+.sec11 {
+	text-align: center;
+	font-size: .85em;
+}
+
+.sec12 {
+	font-weight: 700;
+    font-size: 56px;
+	text-align: center;
+}
+
+.sec13 {
+	font-size: 2em;
+}
+
+.sec14link ul {
+	list-style: none;
+	display: flex;
+	justify-content:center;
+	padding-top: 20px;
+	
+}
+
+.sec14link ul li a {
+	text-align: center;
+	display: flex;
+	text-decoration: none;
+	color: #06c;
+	list-style-type: none;
+}
+
+/* Section 2---------------------------------------------------------------------------------*/
+
+.sec2 {
+	width: 1351px;
+	height: 710px;
+	background-image: url('Image/iphone11-pro-bg.jpg');
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	color: #fafafa;
+	text-align: center;
+}
+
+.sec2internal {
+	width: 980px;
+    padding: 0 10px;
+    margin: 0 auto;
+	padding: 65px 20px;
+}
+
+.sec21 {
+	font-weight: 600;
+    font-size: 56px;
+	color: #fafafa;
+	text-align: center;
+}
+
+.sec22 {
+	font-size: 26px;
+    padding: 10px 0;
+}
+
+.sec23 {
+	color: #86868b;
+    font-size: 0.85em;
+}
+
+.sec24link ul {
+	list-style: none;
+	text-align: center;
+    padding-top: 20px;
+	display: flex;
+	justify-content:center;
+}
+
+.sec24link ul li a {
+    color: #06c;
+    text-decoration: none;
+}
+
+
+/* Section 3---------------------------------------------------------------------------------*/
+
+.sec3 {
+	width: 1351px;
+	height: 710px;
+	background-image: url('Image/iphone11-bg.jpg');
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	color: #000000;
+	text-align: center;
+	
+}
+
+.sec3internal {
+	width: 980px;
+    padding: 0 10px;
+    margin: 0 auto;
+	padding: 65px 20px;
+
+}
+
+.sec31 {
+	font-weight: 600;
+    font-size: 56px;
+	color: black;
+	text-align: center;
+}
+
+.sec32 {
+	font-size: 26px;
+    padding: 10px 0;
+}
+
+.sec33 {
+	color: #86868b;
+    font-size: 0.85em;
+}
+
+.sec34link ul {
+	list-style: none;
+	text-align: center;
+    padding-top: 20px;
+	display: flex;
+	justify-content:center;
+}
+
+.sec34link ul li a {
+    color: #06c;
+    text-decoration: none;
+}
+
+/* Section 4---------------------------------------------------------------------------------*/
+
+.sec4 {
+	display: flex;
+	/* align-self: center; */
+	justify-content: space-between;
+    background: #fff;
+}
+
+/* Section 41---------------------------------------------------------------------------------*/
+
+.sec41 {
+	height: 580px;
+	/* width: 580px; */
+	background-image: url('Image/watch-series-5.jpg');
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	color: #000000;
+	text-align: center;
+	width: 48.5%;
+    margin: 1% 0% 0% 1%;
+	padding-right: 0%;
+	margin-right: 0%;
+    padding-top: 54px;
+}
+
+.sec411 {
+	max-width: 430px;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+.sec412 {
+	padding-top: 10px;
+}
+
+.sec414link ul {
+    display: flex;
+	justify-content:center;
+    list-style-type: none;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    padding-inline-start: 40px;
+    unicode-bidi: isolate;
+	/* text-decoration: none; */
+}
+
+.sec414link ul li a {
+	text-decoration: none;
+	color: #06c;
+}
+
+/* Section 42---------------------------------------------------------------------------------*/
+
+.sec42 {
+	height: 580px;
+	/* width: 580px; */
+	background-image: url('Image/apple-card.jpg');
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	color: #000000;
+	text-align: center;
+	width: 48.5%;
+    margin: 1% 0.5% 0% 0%;
+    padding-top: 54px;
+	padding-left: 0%;
+	margin-left: 0%;
+}
+
+.sec421 {
+	max-width: 430px;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+.sec422 {
+	padding-top: 10px;
+}
+
+.sec423link ul {
+    display: flex;
+	justify-content:center;
+    list-style-type: none;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    padding-inline-start: 40px;
+    unicode-bidi: isolate;
+	/* text-decoration: none; */
+}
+
+.sec423link ul li a {
+	text-decoration: none;
+	color: #06c;
+}
+
+/* Section 5---------------------------------------------------------------------------------*/
+
+.sec5 {
+	display: flex;
+	/* align-self: center; */
+	justify-content: space-between;
+    background: #fff;
+}
+
+/* Section 51---------------------------------------------------------------------------------*/
+
+.sec51 {
+	height: 580px;
+	/* width: 580px; */
+	background-image: url('Image/apple-tv-background.jpg');
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	color: #000000;
+	text-align: center;
+	width: 48.5%;
+    margin: 1% 0% 0% 1%;
+	padding-right: 0%;
+	margin-right: 0%;
+    padding-top: 54px;
+	display: flex;
+	flex-direction: column;
+	/* justify-content: space-evenly; */
+	gap: 180px;
+}
+
+.sec511 {
+	max-width: 430px;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+.sec512 {
+	max-width: 430px;
+    margin: 0 auto;
+    padding: 10px;
+
+}
+
+/* .sec513link ul {
+    list-style-type: none;
+} */
+
+.sec513link ul li a {
+	text-decoration: none;
+	color: #06c;
+	padding-top: 20px;
+}
+
+/* Section 52---------------------------------------------------------------------------------*/
+
+.sec52 {
+	background-color: #000000;
+	height: 580px;
+	/* width: 580px; */
+	/* background-image: url('Image/air-pods.jpg');
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat; */
+	color: #000000;
+	text-align: center;
+	width: 48.5%;
+    margin: 1% 0.5% 0% 0%;
+    padding-top: 54px;
+	padding-left: 0%;
+	margin-left: 0%;
+}
+
+.sec521 {
+	max-width: 430px;
+    margin: 0 auto;
+	font-size: 40px;
+    font-weight: bold;
+	color: #fafafa;
+}
+
+.sec522 {
+	padding-top: 10px;
+	color: #fafafa;
+}
+
+.sec523link ul {
+    display: flex;
+	justify-content:center;
+    list-style-type: none;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    padding-inline-start: 40px;
+    unicode-bidi: isolate;
+	/* text-decoration: none; */
+}
+
+.sec523link ul li a {
+	text-decoration: none;
+	color: #06c;
+}
+
+/* Section 6---------------------------------------------------------------------------------*/
+
+.sec6 {
+	display: flex;
+	/* align-self: center; */
+	justify-content: space-between;
+    background: #fff;
+}
+
+/* Section 61---------------------------------------------------------------------------------*/
+
+.sec61 {
+	height: 580px;
+	/* width: 580px; */
+	/* background-image: url('Image/macbook-pro.jpg');
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat; */
+	color: #000000;
+	background-color: #f8f8fb;
+	text-align: center;
+	width: 48.5%;
+    margin: 1% 0% 0% 1%;
+	padding-right: 0%;
+	margin-right: 0%;
+    padding-top: 54px;
+}
+
+.sec611 {
+	max-width: 430px;
+    margin: 0 auto;
+    /* padding: 10px; */
+}
+
+.sec612 {
+	/* padding-top: 10px; */
+	font-weight: 700;
+    font-size: 45px;
+}
+
+.sec613 {
+	padding-top: 10px;
+}
+
+.sec614link ul {
+    display: flex;
+	justify-content:center;
+    list-style-type: none;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    padding-inline-start: 40px;
+    unicode-bidi: isolate;
+	/* text-decoration: none; */
+}
+
+.sec614link ul li a {
+	text-decoration: none;
+	color: #06c;
+}
+
+/* Section 62---------------------------------------------------------------------------------*/
+
+.sec62 {
+	height: 580px;
+	/* width: 580px; */
+	background-image: url('Image/new-ipad.jpg');
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	color: #000000;
+	text-align: center;
+	width: 48.5%;
+    margin: 1% 0.5% 0% 0%;
+    padding-top: 54px;
+	padding-left: 0%;
+	margin-left: 0%;
+}
+
+.sec621 {
+	max-width: 430px;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+.sec622 {
+	padding-top: 10px;
+}
+
+.sec623link ul {
+    display: flex;
+	justify-content:center;
+    list-style-type: none;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    padding-inline-start: 40px;
+    unicode-bidi: isolate;
+	/* text-decoration: none; */
+}
+
+.sec623link ul li a {
+	text-decoration: none;
+	color: #06c;
+}
